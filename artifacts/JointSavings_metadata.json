@@ -6,6 +6,11 @@
 	"output": {
 		"abi": [
 			{
+				"payable": true,
+				"stateMutability": "payable",
+				"type": "fallback"
+			},
+			{
 				"constant": true,
 				"inputs": [],
 				"name": "contractBalance",
@@ -121,10 +126,10 @@
 	},
 	"sources": {
 		"OneDrive/Desktop/Fintech Bootcamp/Module_20/Joint-Savings-Account-Smart-Contract/Copy_joint_savings.sol": {
-			"keccak256": "0x0ce5e6afaef70f7e7d47c800480dc548216b830ff2e6cb31fdfd0787dcfea6c0",
+			"keccak256": "0xc987d5756b42de69e6f1d0342758c65234acc9f272675d197927ceb4d923c27a",
 			"urls": [
-				"bzz-raw://b63079d462ae0f6bc89be11935b34886310be80a1b374ef522bfdb59a198adde",
-				"dweb:/ipfs/QmW3o4bE2f5MAZ2v3Sncb2LLqNQM5zcnyY5ndZjqcNXoEb"
+				"bzz-raw://2d445971e1352f9303b3451dbbc8c1ea0baae36ca2ae89e24c1acfa42caf1031",
+				"dweb:/ipfs/QmTkM1n9uS7ke6mv8VFVKHWNXXdA5gAhRNXmVCmQDJYnGu"
 			]
 		}
 	},
