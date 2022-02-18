@@ -40,9 +40,9 @@ contract JointSavings {
     function withdraw(uint amount, address payable recipient) public {
 
         /*
-        Define a `require` statement that checks if the `recipient` is equal to either `accountOne` or `accountTwo`. The `requiere` statement returns the text `"You cannot send funds from your account to your account."` if it does not.
+        Define a `require` statement that checks if the `recipient` is equal to either `accountOne` or `accountTwo`. The `require` statement returns the text `"You cannot withdraw funds from this account."` if it does not.
         */
-        require(recipient != accountOne && recipient != accountTwo, "You cannot send funds from your account to your account.");
+        require(recipient == accountOne || recipient == accountTwo, "You cannot withdraw funds from this account.");
 
         /*
         Define a `require` statement that checks if the `balance` is sufficient to accomplish the withdraw operation. If there are insufficient funds, the text `Insufficient funds` is returned.
