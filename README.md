@@ -3,15 +3,15 @@ Demonstration of a Smart Contract with Solidity for a joint savings account.
 
 ## Technologies
 
-This program was written in Solidity 0.5.0. It can be run in Remix IDE and can interact with an example simulated Ethereum network by Ganache.
+This program was written in Solidity 0.5.0. It can be run in Remix IDE.
 
 ## Installation Guide
 
-Please compile and run the program in Remix IDE.
+Please compile and deploy the contract in Remix IDE.
 
 ## Usage
 
-Addresses from Ganache must be inputted into the deployed smart contract.
+Addresses supplied by Remix IDE with Javascript VM may be used to test this application.
 
 ## Contributors
 This program was written by Preston Hodsman based on a request from Trilogy Education Services, a 2U, Inc.
